@@ -26,3 +26,5 @@ replay_pid*
 __pycache__
 *.pyc
 .idea
+src/javascript/node_modules
+src/rust/target

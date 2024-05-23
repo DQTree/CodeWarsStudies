@@ -1,0 +1,15 @@
+[package]
+name = "rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+num-traits = "0.2.19"
+
+[[bin]]
+name = "squareEveryDigit"
+path = "src/kata/_7kyu/squareEveryDigit/squareEveryDigit.rs"   # Adjust this if your main.rs is located elsewhere
+
+[[test]]
+name = "squareEveryDigitTest"
+path = "tests/_7kyu/squareEveryDigit/squareEveryDigitTest.rs"
