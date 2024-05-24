@@ -4,14 +4,16 @@
   "description": "",
   "main": "index.js",
   "directories": {
-    "test": "tests"
+    "tests": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tests": "mocha --recursive"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chai": "^5.1.1"
-  }
+    "chai": "^5.1.1",
+    "mocha": "^10.4.0"
+  },
+  "type": "module"
 }

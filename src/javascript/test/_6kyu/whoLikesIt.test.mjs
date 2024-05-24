@@ -1,5 +1,6 @@
 import { likes } from '../../kata/_6kyu/whoLikesIt.mjs';
 import { assert } from 'chai';
+import { describe, it } from 'mocha'
 
 describe('example tests', function () {
     it('should return correct text', function () {
