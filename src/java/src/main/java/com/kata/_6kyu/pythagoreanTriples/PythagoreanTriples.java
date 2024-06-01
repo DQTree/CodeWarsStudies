@@ -1,4 +1,4 @@
-package com.kata.beta.pythagoreanTriples;
+package com.kata._6kyu.pythagoreanTriples;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,11 +1,12 @@
-package beta.pythagoreanTriples;
+package _6kyu.pythagoreanTriples;
 
 import java.util.List;
 
 import static org.junit.Assert.assertArrayEquals;
 import org.junit.Test;
 
-import com.kata.beta.pythagoreanTriples.PythagoreanTriples;
+import com.kata._6kyu.pythagoreanTriples.PythagoreanTriples;
+
 
 public class SolutionTest {
   @Test
