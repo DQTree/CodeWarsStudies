@@ -28,3 +28,4 @@ __pycache__
 .idea
 src/javascript/node_modules
 src/rust/target
+src/java/target
