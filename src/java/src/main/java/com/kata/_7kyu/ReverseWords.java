@@ -1,6 +1,6 @@
-package com.kata._7kyu.reverseWords;
+package com.kata._7kyu;
 
-public class Kata {
+public class ReverseWords {
     public static String reverseWords(final String original) {
         StringBuilder result = new StringBuilder();
         StringBuilder wordBuilder = new StringBuilder();
