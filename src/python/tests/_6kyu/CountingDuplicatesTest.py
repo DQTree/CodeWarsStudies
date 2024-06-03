@@ -1,5 +1,7 @@
 import unittest
-from countingDuplicates import duplicate_count
+
+from src.python.src._6kyu.countingDuplicates import duplicate_count
+
 
 class CountingDuplicatesTest(unittest.TestCase):
     def test_something(self):

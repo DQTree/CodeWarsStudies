@@ -1,5 +1,7 @@
 import unittest
-from descendingOrder import descending_order
+
+from src.python.src._7kyu.descendingOrder import descending_order
+
 
 class DescendingOrderTest(unittest.TestCase):
     def test_something(self):

@@ -5,7 +5,6 @@ import org.junit.Test;
 
 import com.kata._7kyu.ReverseWords;
 
-
 public class ReverseWordsTest {
     @Test
     public void exampleCases() {

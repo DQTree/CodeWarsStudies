@@ -1,4 +1,11 @@
 {
     "java.configuration.updateBuildConfiguration": "interactive",
-    "maven.view": "flat"
+    "maven.view": "flat",
+    "python.analysis.extraPaths": [
+        "./src/python/src",
+        "./src/python/tests",
+    ],
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": "${env:PYTHONPATH};src/python/src"
+    }
 }

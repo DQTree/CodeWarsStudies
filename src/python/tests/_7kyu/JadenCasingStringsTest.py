@@ -1,5 +1,7 @@
 import unittest
-from jadenCasingStrings import to_jaden_case
+
+from src.python.src._7kyu.jadenCasingStrings import to_jaden_case
+
 
 class JadenCasingStringsTest(unittest.TestCase):
     def test_something(self):

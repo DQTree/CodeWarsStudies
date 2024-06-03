@@ -1,5 +1,7 @@
 import unittest
-from uniqueInOrder import unique_in_order
+
+from src.python.src._6kyu.uniqueInOrder import unique_in_order
+
 
 class UniqueInOrderTest(unittest.TestCase):
     def test_something1(self):

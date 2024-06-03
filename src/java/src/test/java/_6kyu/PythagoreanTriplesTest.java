@@ -7,7 +7,6 @@ import org.junit.Test;
 
 import com.kata._6kyu.PythagoreanTriples;
 
-
 public class PythagoreanTriplesTest {
   @Test
   public void exampleTests() {
