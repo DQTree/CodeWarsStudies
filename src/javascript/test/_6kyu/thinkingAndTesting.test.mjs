@@ -1,4 +1,4 @@
-import { testIt } from '../../kata/_6kyu/thinkingAndTesting.mjs'
+import { testIt } from '../../src/_6kyu/thinkingAndTesting.mjs'
 import { assert } from 'chai';
 import { describe, it } from 'mocha'
 
