@@ -20,5 +20,5 @@ def solve(arr)
         order += "D"
     end
 
-    return order
+    order
 end

@@ -1,22 +1,22 @@
-def decodeMorse(morseCode)
-    words = morseCode.strip.split("   ")
-    translatedPhrase = ""
+def decode_morse(morse_code)
+    words = morse_code.strip.split("   ")
+    translated_phrase = ""
     words.each_with_index do |word, index|
-        translatedPhrase += decodeWord(word)
+        translated_phrase += decode_word(word)
         if index != words.length - 1
-            translatedPhrase += " " 
+            translated_phrase += " "
         end
     end
-    return translatedPhrase
+    translated_phrase
 end
 
-def decodeWord(word)
+def decode_word(word)
     letters = word.split(" ")
-    translatedWord = ""
+    translated_word = ""
     letters.each_with_index do |letter, index|
-        translatedWord += MORSE_CODE[letter]
+        translated_word += MORSE_CODE[letter]
     end
-    return translatedWord
+    translated_word
 end
 
 MORSE_CODE = {
