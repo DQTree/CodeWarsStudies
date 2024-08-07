@@ -36,6 +36,3 @@ export function sumPairs(ints: number[], s: number): [number, number] | void {
 
   return res
 }
-
-  return res
-}
