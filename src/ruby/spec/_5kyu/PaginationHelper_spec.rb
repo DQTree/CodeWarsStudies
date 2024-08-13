@@ -1,6 +1,6 @@
 require_relative '../../lib/_5kyu/PaginationHelper'
 
-RSpec.describe 'Pagination helper' do
+RSpec.describe 'PaginationHelper tests' do
     describe "Implements paging features" do
         def do_test(instance, method, expected, *args)
             actual = method.bind(instance).(*args)

@@ -1,4 +1,4 @@
-defmodule TestSuite do
+defmodule SquareDigitsTest do
   use ExUnit.Case
   doctest Kata
 

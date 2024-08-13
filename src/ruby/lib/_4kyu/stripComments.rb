@@ -1,4 +1,6 @@
 def strip_comments(input, markers)
-  regex = Regexp.union(markers.map { |marker| Regexp.escape(marker) })
-  input.match(/.*?(?=#{regex})/).to_s.strip
+  markers.each do |marker|
+    input.gsub!(/\s*#{Regexp.escape(marker)}.*/, '')
+  end
+  input
 end

@@ -1,14 +1,12 @@
-import unittest
+import codewars_test as test
 
 from src.python.src._7kyu.descendingOrder import descending_order
 
 
-class DescendingOrderTest(unittest.TestCase):
-    def test_something(self):
-        self.assertEqual(descending_order(0), 0)
-        self.assertEqual(descending_order(15), 51)
-        self.assertEqual(descending_order(123456789), 987654321)
-
-
-if __name__ == '__main__':
-    unittest.main()
+@test.describe('Descending order tests')
+def desc1():
+    @test.it("should pass basic tests")
+    def it1():
+        test.assert_equals(descending_order(0), 0)
+        test.assert_equals(descending_order(15), 51)
+        test.assert_equals(descending_order(123456789), 987654321)

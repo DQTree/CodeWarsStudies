@@ -2,7 +2,7 @@ import codewars_test as test
 
 from src.python.src._5kyu.alphaNumeric import alphaNumeric
 
-@test.describe("Sample Tests")
+@test.describe("Alphanumeric tests")
 def sample_tests():
     tests = [
         ("hello world_", False),
@@ -10,6 +10,6 @@ def sample_tests():
         ("     ", False)
     ]
     for s, b in tests:
-        @test.it('alphanumeric("' + s + '")')
+        @test.it('should pass alphanumeric("' + s + '")')
         def sample_test():
             test.assert_equals(alphaNumeric(s), b)

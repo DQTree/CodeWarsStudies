@@ -1,6 +1,6 @@
 require_relative '../../lib/_5kyu/lastDigit'
 
-RSpec.describe "Last digit" do
+RSpec.describe "LastDigit tests" do
   describe "Gets the last digit of a big number" do
     it "should return the last digits" do
         expect(last_digit(4, 1)).to eq(4)

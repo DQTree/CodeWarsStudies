@@ -1,7 +1,7 @@
 require_relative '../../lib/_4kyu/topWords'
 
-RSpec.describe("Most words frequently used in a text") do
-  it "can pass basic tests" do
+RSpec.describe("MostFrequentWords tests") do
+  it "should pass basic tests" do
     expect(top_3_words("a a a  b  c c  d d d d  e e e e e")).to eq(["e", "d", "a"])
     expect(top_3_words("e e e e DDD ddd DdD: ddd ddd aa aA Aa, bb cc cC e e e")).to eq(["e", "ddd", "aa"])
     expect(top_3_words("  //wont won't won't ")).to eq(["won't", "wont"])
@@ -11,7 +11,7 @@ RSpec.describe("Most words frequently used in a text") do
     expect(top_3_words("  '''  ")).to eq([])
   end
 
-  it "can pass a whole paragraph" do
+  it "should pass a whole paragraph" do
     expect(top_3_words("""In a village of La Mancha, the name of which I have no desire to call to
 mind, there lived not long since one of those gentlemen that keep a lance
 in the lance-rack, an old buckler, a lean hack, and a greyhound for

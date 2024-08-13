@@ -3,9 +3,9 @@ import codewars_test as test
 from src.python.src._6kyu.arrayDiff import array_diff
 
 
-@test.describe("Fixed Tests")
+@test.describe("Array diff tests")
 def fixed_tests():
-    @test.it('Basic Test Cases')
+    @test.it('should pass basic test cases')
     def basic_test_cases():
         test.assert_equals(array_diff([1,2], [1]), [2], "a was [1,2], b was [1], expected [2]")
         test.assert_equals(array_diff([1,2,2], [1]), [2,2], "a was [1,2,2], b was [1], expected [2,2]")

@@ -1,7 +1,7 @@
 require_relative '../../lib/_6kyu/countBits'
 
-RSpec.describe "Fixed tests" do
-    it "should pass fixed tests" do
+RSpec.describe "CountBits tests" do
+    it "should pass basic tests" do
         expect(count_bits(0)).to eq(0)
         expect(count_bits(4)).to eq(1)
         expect(count_bits(7)).to eq(3)

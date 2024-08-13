@@ -1,16 +1,13 @@
-import unittest
+import codewars_test as test
 
 from src.python.src._6kyu.countingDuplicates import duplicate_count
 
-
-class CountingDuplicatesTest(unittest.TestCase):
-    def test_something(self):
-        self.assertEqual(duplicate_count(""), 0)
-        self.assertEqual(duplicate_count("abcde"), 0)
-        self.assertEqual(duplicate_count("abcdeaa"), 1)
-        self.assertEqual(duplicate_count("abcdeaB"), 2)
-        self.assertEqual(duplicate_count("Indivisibilities"), 2)
-
-
-if __name__ == '__main__':
-    unittest.main()
+@test.describe('Count duplicate tests')
+def desc1():
+    @test.it("should pass basic tests")
+    def it1():
+        test.assert_equals(duplicate_count(""), 0)
+        test.assert_equals(duplicate_count("abcde"), 0)
+        test.assert_equals(duplicate_count("abcdeaa"), 1)
+        test.assert_equals(duplicate_count("abcdeaB"), 2)
+        test.assert_equals(duplicate_count("Indivisibilities"), 2)

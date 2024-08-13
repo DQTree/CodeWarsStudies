@@ -1,7 +1,7 @@
 require_relative '../../lib/_4kyu/soManyPermutations'
 
-RSpec.describe("Permutes strings") do
-  it "can do basic test" do
+RSpec.describe("SoManyPermutations tests") do
+  it "should pass basic test" do
     expect(
       permutations('ab').sort
     ).to eq(['ab', 'ba'])

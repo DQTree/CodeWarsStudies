@@ -1,6 +1,6 @@
 require_relative '../../lib/_4kyu/stripComments.rb'
 
-RSpec.describe("Strips comments") do
+RSpec.describe("StripComments tests") do
   it "should pass basic tests" do
     check_comments("apples, pears # and bananas\ngrapes\nbananas !apples", ["#", "!"], "apples, pears\ngrapes\nbananas")
     check_comments("Q @b\nu\ne -e f g", ["@", "-"], "Q\nu\ne")
